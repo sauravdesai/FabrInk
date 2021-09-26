@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup</title>
+    <link rel="stylesheet" href="../css/Signup.css">
+</head>
+<body>
+        <div class="row">
+            <div class="column" style="background-color:#fff;">
+              <img src="../img/signup.png" alt="">
+            </div>
+            <div class="column" style="background-color:#161616;">
+              <center><h1>Signup</h1>
+                <input
+                type="email"
+                class="textbox"
+                placeholder="E-Mail ID"
+                id="email"/><br>
+                <input
+                type="text"
+                class="textbox"
+                placeholder="Username"
+                id="username"/> <br>
+                <input
+                type="password"
+                class="textbox"
+                placeholder="Password"
+                id="password"
+              /><br>
+
+              
+              <input
+              type="button"
+              value="Signup"
+              class="btn"
+              onclick="onSubmit()"
+            /><br>
+            <input
+                type="button"
+                value="Already have an account ?"
+                class="btn-login"
+                onclick="login()"
+              />
+              
+              
+              </center>
+              </div>
+            </div>
+          </div>
+          <script src="../js/signup.js"></script>
+</body>
+</html>
