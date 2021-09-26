@@ -1,0 +1,48 @@
+<div class="login">
+        <center>
+          <form name="loginform">
+            <h1>Welcome Back</h1>
+            <h3>Log into <span class="Fabr">Fabr</span><span class="Ink">Ink</span></h3>
+            <p></p>
+            <input
+              type="text"
+              class="textbox"
+              placeholder="Username"
+              id="username"
+            />
+            <p>
+              <input
+                type="password"
+                class="textbox"
+                placeholder="Password"
+                id="password"
+              />
+            </p>
+            <p id="demo" class="alert"></p>
+
+            <br />
+            <label class="cont"
+              >Stay Signed in
+              <input type="checkbox" checked="checked" />
+              <span class="checkmark"></span>
+            </label>
+            <p>
+              <br />
+             
+              <input
+                type="button"
+                value="SignUp"
+                class="btn-signup"
+                onclick="signup()"
+              />
+              <input
+              type="button"
+              value="Login"
+              class="btn"
+              onclick="onSubmit()"
+            />
+            </p>
+            <a href="signup.html"></a>
+          </form>
+        </center>
+      </div>
